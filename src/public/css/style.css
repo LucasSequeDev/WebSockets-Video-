@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#video {
+    width: 80%;
+    height: auto;
+}
+
+@media (max-width: 576px) {
+    #video {
+        width: 100%;
+    }
+}
